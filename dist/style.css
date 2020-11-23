@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: pink;
+  width: 100%;
+}
+body header {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+body header nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+body header nav a {
+  color: gray;
+}
+body header nav a:hover {
+  color: black;
+}
+body header nav div {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+body header nav ul {
+  display: flex;
+  margin-right: 150px;
+  align-items: center;
+}
+body header nav ul li {
+  margin-left: 60px;
+  text-align: center;
+}
+body main {
+  display: flex;
+  width: auto;
+  flex-direction: row;
+}
+body main .photo1 {
+  margin-left: 150px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+body main .photo1 p {
+  font-size: 25px;
+  text-align: center;
+}
+body main .photo2 {
+  margin-left: 50px;
+  margin-top: 100px;
+}
+body main .photo3 {
+  margin-top: 150px;
+  margin-left: 50px;
+}
+body main div {
+  width: 400px;
+  height: 400px;
+  display: flex;
+}
+body main div img {
+  width: 390px;
+  height: auto;
+}eight: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
